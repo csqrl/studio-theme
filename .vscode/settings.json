@@ -1,0 +1,10 @@
+{
+  "git.ignoreSubmodules": true,
+  "git.autoRepositoryDetection": "openEditors",
+  "git.detectSubmodules": false,
+  "[lua]": {
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSaveMode": "modificationsIfAvailable"
+}

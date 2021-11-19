@@ -1,0 +1,17 @@
+{
+  "name": "studio-theme-serve",
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Packages": {
+        "$path": "Packages",
+        "StudioTheme": {
+          "$path": "default.project.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "studio-theme-example",
+  "tree": {
+    "$path": "example",
+    "Packages": {
+      "$path": "Packages",
+      "StudioTheme": {
+        "$path": "default.project.json"
+      }
+    },
+    "DevPackages": {
+      "$path": "DevPackages"
+    }
+  }
+}
