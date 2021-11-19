@@ -1,3 +1,9 @@
+if not script.Parent.DevPackages:FindFirstChild("StudioPlugin") then
+  error(
+    "`csqrl/studio-plugin@^1.0.0` package not found. Add it to your `DevPackages/` dir to continue."
+  )
+end
+
 local Roact = require(script.Parent.Packages.Roact)
 
 local StudioPlugin = require(script.Parent.DevPackages.StudioPlugin)
