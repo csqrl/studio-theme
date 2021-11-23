@@ -1,5 +1,5 @@
 local Studio = settings():GetService("Studio") :: Studio
-local Roact = require(script.Parent.Parent.Roact)
+local Roact: Roact = require(script.Parent.Parent.Roact)
 
 local MergeUtil = require(script.Parent.Parent.Util.MergeUtil)
 local Context = require(script.Parent.Context)

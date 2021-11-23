@@ -1,7 +1,7 @@
 [package]
 name = "csqrl/studio-theme"
 description = "Roact provider for syncing plugins with Studio theme"
-version = "1.0.1"
+version = "1.0.2"
 license = "MIT"
 authors = ["csqrl (https://csqrl.dev)"]
 registry = "https://github.com/upliftgames/wally-index"
@@ -11,6 +11,3 @@ exclude = ["**"]
 
 [dependencies]
 Roact = "roblox/roact@^1.4.2"
-
-[place]
-shared-packages = "script.Parent.Parent.Parent.Parent.Packages"
